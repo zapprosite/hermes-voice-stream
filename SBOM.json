@@ -1,0 +1,40 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-06-16T00:00:00Z",
+    "tools": [
+      {
+        "name": "hermes-manual-sbom",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "name": "hermes-voice-stream",
+      "version": "1.0.0",
+      "purl": "pkg:github.com/zapprosite/hermes-voice-stream@v1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "hermes-agent",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/hermes-agent@0.16.0"
+    },
+    {
+      "type": "library",
+      "name": "sounddevice",
+      "version": "0.4.6",
+      "purl": "pkg:pypi/sounddevice@0.4.6"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "1.26",
+      "purl": "pkg:pypi/numpy@1.26"
+    }
+  ]
+}
